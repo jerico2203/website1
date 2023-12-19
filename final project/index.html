@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Index Page</title>
+      <link rel = "stylesheet" type = "text/css" href= "style.css">
+      <script src="script.js"></script>
+   </head>
+   <body>
+      <main>
+         <div class="intro">
+         <h1>Hi Jerico</h1>
+         <p>To proceed, please login.</p>
+         <button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</button>
+         <div id="id01" class="myform">
+            <form class="myform-content animate" action="javascript:validate()" method="post">
+               <div class="imgcontainer">
+                  <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close myform">&times;</span>
+                  <img src="https://scontent.xx.fbcdn.net/v/t1.15752-9/406321206_869140898337815_1873738957678490162_n.jpg?stp=dst-jpg_s206x206&_nc_cat=111&ccb=1-7&_nc_sid=510075&_nc_eui2=AeEr3MwKpnsJiTBAHlWBFyh86mhcHn2vl6zqaFwefa-XrK1SZwLfcoeeZ3L3iLUEzcnwkQ7YrZkbR4EPVDfA5CKS&_nc_ohc=C8INNYSgWqkAX98TtwR&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AdSMmRNsiGp1UYNfnlJgL32AlRE1KeoL9olZbj0RjQBvbg&oe=659A1091" alt="me" class="avatar">
+               </div>
+               <div class="container">
+                  <label for="uname"><b>Username</b></label>
+                  <input type="text" placeholder="Enter Username" id="uname" required>
+                  <label for="psw"><b>Password</b></label>
+                  <input type="password" placeholder="Enter Password" id="psw" required>
+                  <button type="submit">Login</button>
+               </div>
+            </form>
+         </div>
+      </main>
+      
+   </body>
+</html>
